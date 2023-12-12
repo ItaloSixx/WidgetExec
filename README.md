@@ -17,7 +17,7 @@ WidgetExec é um aplicativo Android desenvolvido em Java usando o Android Studio
 
 Para usar este aplicativo, siga estas etapas:
 
-1. Clone o repositório: git clone https://github.com/ItaloSixx/WidgetExec.git
+1. Clone o repositório: https://github.com/ItaloSixx/WidgetExec/tree/master
 3. Abra o projeto no AndroidStudio.
 4. Compile e execute o aplicativo em um dispositivo Android ou emulador.
 
