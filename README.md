@@ -5,13 +5,13 @@
 WidgetExec é um aplicativo Android desenvolvido em Java usando o Android Studio. Permite aos usuários adicionar e remover dinamicamente campos de texto.
 ## Funcionalidades
 
-- **Adição Dinâmica de Widgets**: Os usuários podem adicionar campos de entrada para habilidades clicando no botão "Adicionar Habilidade".
-- **Remoção Dinâmica de Widgets**: Os usuários podem remover o último campo de entrada adicionado clicando no botão "Remover Habilidade".
+- **Adição Dinâmica de Widgets**: Os usuários podem adicionar campos de entrada para habilidades clicando no botão `Adicionar Habilidade`.
+- **Remoção Dinâmica de Widgets**: Os usuários podem remover o último campo de entrada adicionado clicando no botão `Remover Habilidade`.
 
 ## Uso
 
-1. **Adicionar Habilidade**: Clique no botão "Adicionar Habilidade" para adicionar um novo campo de entrada para habilidades.
-2. **Remover Habilidade**: Clique no botão "Remover Habilidade" para remover o último campo de entrada adicionado.
+1. **Adicionar Habilidade**: Clique no botão `Adicionar Habilidade` para adicionar um novo campo de entrada para habilidades.
+2. **Remover Habilidade**: Clique no botão `Remover Habilidade` para remover o último campo de entrada adicionado.
 
 ## Como executar
 
@@ -35,10 +35,10 @@ O `habilidadesContainer` é um novo layout inserido no layout principal do aplic
 Quando o botão "Adicionar Habilidade" é clicado, o método `addHabilidadeEditText()` é chamado. Esse método incrementa o contador de habilidades (`habilidade`), cria um novo widget `EditText` e o adiciona ao contêiner de habilidades (`habilidadesContainer`). 
 
 ### Remoção dinâmica
-O método rmvUltimoHabilidadeEditText() é chamado quando o botão "Remover Habilidade" é clicado. Este método verifica se há habilidades adicionadas antes de prosseguir. Se houver, o último EditText adicionado é removido do contêiner e a referência correspondente é removida da lista. O contador de habilidades é atualizado conforme necessário.
+O método `rmvUltimoHabilidadeEditText()` é chamado quando o botão `Remover Habilidade` é clicado. Este método verifica se há habilidades adicionadas antes de prosseguir. Se houver, o último `EditText` adicionado é removido do contêiner e a referência correspondente é removida da lista. O contador de habilidades é atualizado conforme necessário.
 
 ### Array Associativo (editTextList)
-A lista editTextList é um exemplo de um array associativo (ou lista associativa). É uma estrutura de dados que mantém referências aos elementos EditText adicionados dinamicamente. Isso facilita a manipulação posterior desses elementos, como a remoção do último EditText ao clicar no botão "Remover Habilidade".
+A lista editTextList é um exemplo de um array associativo (ou lista associativa). É uma estrutura de dados que mantém referências aos elementos EditText adicionados dinamicamente. Isso facilita a manipulação posterior desses elementos, como a remoção do último `EditText` ao clicar no botão `Remover Habilidade`.
 
 ## Conclusão
 
